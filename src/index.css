@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.category-item.active {
+  @apply text-gray-700 font-bold;
+}
+
+.category-item.active::after {
+  content: "";
+  @apply block w-1/2 h-px bg-pink-700;
+}
