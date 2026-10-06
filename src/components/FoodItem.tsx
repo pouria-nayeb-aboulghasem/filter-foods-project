@@ -13,6 +13,8 @@ function FoodItem({ food }: FoodItemProps) {
         <img
           src={image}
           alt={title}
+          width="512"
+          height="512"
           className="aspect-square object-cover rounded-t-xl"
         />
       </figure>
